@@ -14,6 +14,9 @@
 		ED205CB41BC89A600026F5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED205CB21BC89A600026F5FD /* LaunchScreen.storyboard */; };
 		ED205CBF1BC89A600026F5FD /* FIndPictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED205CBE1BC89A600026F5FD /* FIndPictureTests.swift */; };
 		ED205CCA1BC89A600026F5FD /* FIndPictureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED205CC91BC89A600026F5FD /* FIndPictureUITests.swift */; };
+		ED205CD81BC8BE270026F5FD /* textFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED205CD71BC8BE270026F5FD /* textFieldDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		ED205CDA1BC8C6010026F5FD /* stringSearchTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED205CD91BC8C6010026F5FD /* stringSearchTextDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		ED205CDC1BC8C6130026F5FD /* longLangTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED205CDB1BC8C6130026F5FD /* longLangTextDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		ED205CC51BC89A600026F5FD /* FIndPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIndPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED205CC91BC89A600026F5FD /* FIndPictureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIndPictureUITests.swift; sourceTree = "<group>"; };
 		ED205CCB1BC89A600026F5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED205CD71BC8BE270026F5FD /* textFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textFieldDelegate.swift; sourceTree = "<group>"; };
+		ED205CD91BC8C6010026F5FD /* stringSearchTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stringSearchTextDelegate.swift; sourceTree = "<group>"; };
+		ED205CDB1BC8C6130026F5FD /* longLangTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = longLangTextDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				ED205CB01BC89A600026F5FD /* Assets.xcassets */,
 				ED205CB21BC89A600026F5FD /* LaunchScreen.storyboard */,
 				ED205CB51BC89A600026F5FD /* Info.plist */,
+				ED205CD71BC8BE270026F5FD /* textFieldDelegate.swift */,
+				ED205CD91BC8C6010026F5FD /* stringSearchTextDelegate.swift */,
+				ED205CDB1BC8C6130026F5FD /* longLangTextDelegate.swift */,
 			);
 			path = FIndPicture;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED205CAC1BC89A600026F5FD /* ViewController.swift in Sources */,
+				ED205CDA1BC8C6010026F5FD /* stringSearchTextDelegate.swift in Sources */,
+				ED205CD81BC8BE270026F5FD /* textFieldDelegate.swift in Sources */,
 				ED205CAA1BC89A600026F5FD /* AppDelegate.swift in Sources */,
+				ED205CDC1BC8C6130026F5FD /* longLangTextDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
